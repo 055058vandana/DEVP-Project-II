@@ -12,7 +12,7 @@ def main():
     st.title("Streamlit Dashboard")
     
     # Load the Data
-    file_path = "https://raw.githubusercontent.com/055058vandana/DEVP-Project-II/blob/main/import%20export.csv"
+    file_path = "import export.csv"
     
     # Check if file exists
     if os.path.exists(file_path):
